@@ -177,14 +177,24 @@ public class HttpClientTest {
      */
     public List<File>  getListFiles(){
         List<File> files=new ArrayList<File>();
-        files.add(new File("E:\\爬虫数据\\地区居民季度数据201705.csv"));
-        files.add(new File("E:\\爬虫数据\\地区居民年度数据201705.csv"));
-        files.add(new File("E:\\爬虫数据\\各地区农副产品价格指数201705.csv"));
-        files.add(new File("E:\\爬虫数据\\全国GDP每年的数据201705.csv"));
-        files.add(new File("E:\\爬虫数据\\全国居民季度收支表201705.csv"));
-        files.add(new File("E:\\爬虫数据\\全国居民年度数据201705.csv"));
-        files.add(new File("E:\\爬虫数据\\人民币汇率201705.csv"));
-        files.add(new File("E:\\爬虫数据\\省份GDP每年的数据201705.csv"));
+        files.add(new File("E:\\InterfaceAPI\\地区居民季度数据.csv"));
+        files.add(new File("E:\\InterfaceAPI\\地区居民年度数据.csv"));
+        files.add(new File("E:\\InterfaceAPI\\各地区农副产品价格指数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\全国GDP每年的数据.csv"));
+        files.add(new File("E:\\InterfaceAPI\\全国居民季度收支表.csv"));
+        files.add(new File("E:\\InterfaceAPI\\全国居民年度数据.csv"));
+        files.add(new File("E:\\InterfaceAPI\\人民币汇率.csv"));
+        files.add(new File("E:\\InterfaceAPI\\省份GDP每年的数据.csv"));
+        files.add(new File("E:\\InterfaceAPI\\industry\\工业指数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\maincity\\主要城市消费价格指数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\nonindustry\\非制造业指数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\populationall\\全国分类总人数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\populationcity\\全国大型市总人数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\populationprovince\\全国各省总人数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\postCode\\全国邮编.csv"));
+        files.add(new File("E:\\InterfaceAPI\\province\\居民消费价格指数.csv"));
+        files.add(new File("E:\\InterfaceAPI\\regioncode\\全国行政区位码.csv"));
+
 
         return files;
 
