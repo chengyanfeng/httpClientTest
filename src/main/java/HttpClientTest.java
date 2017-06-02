@@ -51,10 +51,10 @@ public class HttpClientTest {
         List<File> listFiles = getListFiles();
 
         for(File file:listFiles){
-        String name1 = file.getName();
+        String name = file.getName();
 
         String key="mrocker";
-        upload(name1,file,key);
+        upload(name,file,key);
 
     }
     }
